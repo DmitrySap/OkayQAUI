@@ -21,3 +21,6 @@ class RegisterPageLocators:
 class DashboardPageLocators:
     FEEDBACK_FIELD = (By.ID, "feedback")
     SUBMIT_FEEDBACK_BTN = (By.XPATH, "//button[@type='submit']")
+    CHECKBOX_1 = (By.NAME, "item1")
+    CHECKBOX_2 = (By.NAME, "item2")
+    CHECKBOX_3 = (By.NAME, "item3")
