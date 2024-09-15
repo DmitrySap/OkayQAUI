@@ -16,6 +16,9 @@ class LoginPage(BasePage):
 
     def assert_invalid_login_message(self):
         alert = self.browser.switch_to.alert
-        print(alert.text)
-        assert "Invalid email or password!" in alert.text
+        assert "Invalid email or password!" in alert.text, 'Wrong alert text'
+        alert.accept()
+
+    def accept_alert(self):
+        alert = self.browser.switch_to.alert
         alert.accept()

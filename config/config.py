@@ -12,3 +12,4 @@ class LoginPageData:
 class DashboardPageDate:
     short_feedback = '0'
     long_feedback = 'Feedback Feedback Feedback' * 30
+    UPLOADED_FILE_NAME = "qal.png"

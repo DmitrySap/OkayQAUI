@@ -23,3 +23,7 @@ class RegisterPage(BasePage):
         print(alert.text)
         assert "Registered successfully!" in alert.text
         alert.accept()
+
+    def accept_alert(self):
+        alert = self.browser.switch_to.alert
+        alert.accept()

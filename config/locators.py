@@ -24,3 +24,8 @@ class DashboardPageLocators:
     CHECKBOX_1 = (By.NAME, "item1")
     CHECKBOX_2 = (By.NAME, "item2")
     CHECKBOX_3 = (By.NAME, "item3")
+    WELCOME_TITLE = (By.CSS_SELECTOR, ".sc-ifyrTC")
+    SLIDER_UPLOAD_IMAGE = (By.CLASS_NAME, 'slider')
+    UPLOAD_IMG_FORM = (By.CLASS_NAME, 'sc-dENhDJ.dJUkDm')
+    IMAGE_UPLOAD_BTN = (By.ID, 'imageUpload')
+    IMAGE_UPLOAD_SUBMIT = (By.XPATH, "//button[contains(text(), 'Upload Image')]")
